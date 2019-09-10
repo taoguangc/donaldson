@@ -1,0 +1,62 @@
+Title: Advantages
+
+----
+
+Imgmap: - 201.jpg
+
+----
+
+Hotarea:
+
+- 
+  hotleft: '16%'
+  hottop: '15%'
+  hottext: Fuel Economy
+  hotlink: '#hot01'
+- 
+  hotleft: '62%'
+  hottop: '20%'
+  hottext: 'Decrease<br />Maintenance Cost'
+  hotlink: '#hot02'
+- 
+  hotleft: '52%'
+  hottop: '80%'
+  hottext: '“Real” Prevent<br />Engine Early Abrasion'
+  hotlink: '#hot03'
+- 
+  hotleft: '2%'
+  hottop: '55%'
+  hottext: 'Configuration<br />Upgrade'
+  hotlink: '#hot04'
+
+----
+
+Builder:
+
+- 
+  video:
+    - powercore02.mp4
+  poster:
+    - 200.jpg
+  _key: videos
+  _uid: videos_1567228937586_359
+- 
+  gallery:
+    - 202.jpg
+    - 203.gif
+    - 204.jpg
+    - 205.jpg
+    - 206.gif
+    - 207.jpg
+    - 208.jpg
+    - 209.jpg
+    - 210.jpg
+  _key: gallerys
+  _uid: gallerys_1567228942362_459
+
+----
+
+Key:
+
+gallerys
+  _uid: gallerys_1567226203239_746

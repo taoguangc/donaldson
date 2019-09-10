@@ -1,0 +1,43 @@
+title: Site
+
+tabs:
+  content:
+    label: 内容
+    icon: text
+    columns:
+      - width: 1/2
+        sections:
+          pages:
+            type: pages
+            template:
+              - home
+              - default
+              - about
+              - manual02
+      - width: 1/2
+        fields:
+          staticSiteGenerator:
+            label: 生成静态网站
+            help: 点击下方生成静态网站
+            progress: 正在生成内容
+            success: 全部完成
+            error: 发生错误
+  matomo:
+    label: 统计
+    icon: search
+    columns:
+      - width: 3/4
+        sections:
+          main:
+            type: matomo-main
+            chart: false
+            overview: false
+            widgets: false
+      - width: 1/4
+        sections:
+          sidebar:
+            type: matomo-sidebar
+            link: false
+            realtime: false
+            summary: false
+          

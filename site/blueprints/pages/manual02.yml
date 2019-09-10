@@ -1,0 +1,90 @@
+title: manual02
+icon: 📝
+
+status:
+  draft: true
+  unlisted: true
+  listed: true
+
+options:
+  changeTemplate:
+    - default
+    - manual02
+
+columns:
+  - width: 2/3
+    fields:
+      imgmap:
+        label: 热点图
+        type: files
+        multiple: false
+      hotarea:
+        label: 热区
+        type: structure
+        fields:          
+          hotleft:
+            width: 1/4
+            label: 左
+            type: text
+          hottop:
+            width: 1/4
+            label: 上
+            type: text
+          hottext:
+            width: 1/4
+            label: 文本
+            type: text
+          hotlink:
+            width: 1/4
+            label: 文本
+            type: text
+
+      builder:
+        label: 生成器
+        type: builder
+        columns: 1
+        fieldsets:
+          gallerys:
+            label: 图库集
+            fields:
+              gallery:
+                label: 图库
+                type: files
+                template: image
+                layout: cards
+                info: "{{ file.dimensions }}"
+                image:
+                  ratio: 3/2
+                  cover: true
+                size: tiny
+          videos:
+            label: 视频集
+            fields:
+              video:
+                width: 1/2
+                label: 视频
+                type: files
+                multiple: false
+              poster:
+                width: 1/2
+                label: 封面
+                type: files
+                multiple: false
+          steps:
+            label: 步骤集
+            fields:
+              step_text:
+                width: 1/2
+                label: 步骤文本
+                type: textarea
+              step_img:
+                width: 1/2
+                label: 步骤图片
+                type: files
+                multiple: false
+
+  - width: 1/3
+    sections:
+      files:
+        headline: 文件
+        type: files

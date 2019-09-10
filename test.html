@@ -1,0 +1,147 @@
+
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="" />
+    <title>首页 | 唐纳森</title>
+    <link rel="shortcut icon" href="http://s02/assets/img/favicon.ico">
+    <link href="http://s02/assets/css/uikit.min.css" rel="stylesheet">
+<link href="http://s02/assets/css/custom.css" rel="stylesheet">
+<script>
+    window.onload = function() {
+      var context = new AudioContext();
+    }
+    </script>
+</head>
+<body class="home">
+
+<audio id="bgaudio" autoplay controls>
+    <source src="http://s02/assets/img/4073.mp3" type="audio/mp3">
+</audio>
+
+<div id="loader" class="uk-position-cover uk-position-fixed uk-background-default" style="z-index: 99;">
+    <div class="uk-position-center">
+        <img src="http://s02/assets/img/loading.gif">
+    </div>
+</div>
+<header>
+    <div class="uk-container uk-padding-remove-horizontal">
+        <nav class="uk-navbar-container uk-navbar-primary uk-light" data-uk-navbar>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="#" uk-icon="icon: chevron-down">Language</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="http://s02">中文</a></li>
+                                <li><a href="http://s02/en/">English</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="uk-section uk-padding-remove-vertical">
+    <div class="uk-container uk-padding-remove donaldson uk-light">
+        <div class="uk-background-cover homebg el01" style="background-image: url(http://s02/assets/img/slide01.jpg);"></div>
+        <div class="uk-background-cover homebg el02" style="background-image: url(http://s02/assets/img/slide02.jpg);"></div>
+        <div class="uk-background-cover homebg el03" style="background-image: url(http://s02/assets/img/slide03.jpg);"></div>
+        <div class="homemenu">
+            <div class="uk-position-top" style="margin-top: 16vh;">
+                    <img src="http://s02/media/pages/home/3269377629-1567265174/home.png" width="86%" alt="">
+                </div>
+            <div class="uk-position-bottom" style="margin-bottom: 8vh;">
+                <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-text-center" data-uk-grid>
+                    <div><a href="manual01" class="uk-button uk-button-default">产品应用</a></div>
+                    <div><a href="manual02" class="uk-button uk-button-default">产品特点</a></div>
+                    <div><a href="manual03" class="uk-button uk-button-default">维护保养</a></div>
+                    <div><a href="manual04" class="uk-button uk-button-default">注意事项</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="http://s02/assets/js/uikit.min.js"></script>
+<script src="http://s02/assets/js/uikit-icons.min.js"></script>
+<script src="http://s02/assets/js/donaldson.js"></script>
+<script src="http://s02/assets/js/anime.min.js"></script>
+<script>
+function preloader() {
+  if (document.images) {
+    var img1 = new Image();
+    var img2 = new Image();
+    var img3 = new Image();
+
+    img1.src = "http://s02/assets/img/slide01.jpg";
+    img2.src = "http://s02/assets/img/slide02.jpg";
+    img3.src = "http://s02/assets/img/slide03.jpg";
+  }
+
+  var loader = document.querySelector("#loader");
+  loader.style.display = "none";
+        
+anime({
+  targets: '.homebg.el03',
+  translateX: [
+    { value: '66.6%', duration: 0, endDelay: 4000 },
+    { value: ['-100%','66.6%'], duration: 2000, delay: 1000, easing: 'easeOutExpo' },
+  ],
+  translateY: [
+    { value: ['-100%','0'], duration: 500, delay: 2000, easing: 'easeOutQuad' },
+    { value: ['0','100%'], duration: 500, delay: 1000, easing: 'easeOutQuad' },
+    { value: 0, easing: 'easeOutExpo' },
+  ],
+});
+anime({
+  targets: '.homebg.el02',
+  translateX: [
+    { value: '-66.6%', endDelay: 4500 },
+    { value: ['-100%','33.3%'], duration: 2000, delay: 1000, easing: 'easeOutExpo' },
+  ],
+  translateY: [
+    { value: ['100%','0'], duration: 500, delay: 2000, easing: 'easeOutQuad' },
+    { value: ['0','-100%'], duration: 500, delay: 1000, endDelay: 1500, easing: 'easeOutQuad' },
+    { value: 0, easing: 'easeOutExpo' },
+  ],
+});
+anime({
+  targets: '.homebg.el01',
+  scale: [
+    { value: [0,1], duration: 2000, easing: 'easeOutSine' },
+    { value: 1, delay: 2000 },
+  ],
+});
+anime({
+  targets: ['.homemenu', 'header'],
+  opacity: ['0','1'],
+  duration: 3000,
+  delay: 5000,
+  easing: 'easeOutExpo'
+});
+}
+
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			if (oldonload) {
+				oldonload();
+			}
+			func();
+		}
+	}
+}
+
+addLoadEvent(preloader);
+</script>
+</body>
+</html>

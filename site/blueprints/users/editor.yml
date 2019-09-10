@@ -1,0 +1,44 @@
+title: 编辑
+permissions:
+  access:
+    panel: true
+    site: true
+    settings: false
+    users: false
+  files:
+    create: true
+    changeName: true
+    delete: false
+    replace: false
+    update: false
+  site:
+    update: false
+  pages:
+    changeSlug: true
+    changeStatus: false
+    changeTemplate: true
+    changeTitle: true
+    create: true
+    delete: false
+    preview: true
+    hide: true
+    sort: true
+    update: false
+  user:
+    create: false
+    changeName: true
+    changeEmail: true
+    changeLanguage: true
+    changePassword: false
+    changeRole: false
+    delete: false
+    update: false
+  users:
+    create: true
+    changeEmail: false
+    changeLanguage: true
+    changeName: false
+    changePassword: false
+    changeRole: false
+    delete: false
+    update: false

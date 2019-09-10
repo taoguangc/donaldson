@@ -1,0 +1,448 @@
+{
+  "add": "添加",
+  "avatar": "个人资料图片",
+  "back": "返回",
+  "cancel": "取消",
+  "change": "更改",
+  "close": "关闭",
+  "confirm": "确定",
+  "copy": "复制",
+  "create": "创造",
+
+  "date": "日期",
+  "date.select": "选择日期",
+
+  "day": "日",
+  "days.fri": "周五",
+  "days.mon": "周一",
+  "days.sat": "周六",
+  "days.sun": "周日",
+  "days.thu": "周四",
+  "days.tue": "周二",
+  "days.wed": "周三",
+
+  "delete": "删除",
+  "dimensions": "尺寸",
+  "discard": "丢弃",
+  "download": "下载",
+  "duplicate": "重复",
+  "edit": "编辑",
+
+  "dialog.files.empty": "没有要选择的文件",
+  "dialog.pages.empty": "没有要选择的页面",
+  "dialog.users.empty": "没有要选择的用户",
+
+  "email": "电子邮箱",
+  "email.placeholder": "mail@example.com",
+
+  "error.access.login": "登录无效",
+  "error.access.panel": "您无权访问该面板",
+
+  "error.avatar.create.fail": "无法上传个人资料图片",
+  "error.avatar.delete.fail": "无法删除个人资料图片",
+  "error.avatar.dimensions.invalid":
+    "请将个人资料图片的宽度和高度保持在3000像素以下",
+  "error.avatar.mime.forbidden":
+    "个人资料图片必须是 JPEG 或 PNG 文件",
+
+  "error.blueprint.notFound": "蓝图 \"{name}\" 无法加载",
+
+  "error.email.preset.notFound": "无法找到电子邮件预设 \"{name}\"",
+
+  "error.field.converter.invalid": "无效的转换器 \"{converter}\"",
+
+  "error.file.changeName.permission":
+    "您无权更改 \"{filename}\" 的名称",
+  "error.file.duplicate": "名称为 \"{filename}\" 的文件已存在",
+  "error.file.extension.forbidden":
+    "不允许扩展名 \"{extension}\"",
+  "error.file.extension.missing":
+    "缺少 \"{filename}\" 的扩展名",
+  "error.file.mime.differs":
+    "上传的文件必须是相同的 mime 类型 \"{mime}\"",
+  "error.file.mime.forbidden": "不允许媒体类型 \"{mime}\"",
+  "error.file.mime.missing":
+    "媒体类型 \"{filename}\" 无法检测到",
+  "error.file.name.missing": "文件名不能为空",
+  "error.file.notFound": "文件 \"{filename}\" 无法找到",
+  "error.file.type.forbidden": "您无权上传 {type} 文件",
+  "error.file.undefined": "无法找到该文件",
+
+  "error.form.incomplete": "请修复所有表单错误…",
+  "error.form.notSaved": "表单无法保存",
+
+  "error.language.code": "请输入该语言的有效代码",
+  "error.language.duplicate": "语言已经存在",
+  "error.language.name": "请输入该语言的有效名称",
+
+  "error.license.format": "请输入有效的许可证密钥",
+  "error.license.email": "请输入有效的电子邮件地址",
+  "error.license.verification": "无法验证许可证",
+
+  "error.page.changeSlug.permission":
+    "您无权更改附加的 URL 网址 \"{slug}\"",
+  "error.page.changeStatus.incomplete":
+    "此页面有错误，无法发布",
+  "error.page.changeStatus.permission":
+    "此页面的状态无法更改",
+  "error.page.changeStatus.toDraft.invalid":
+    "页面 \"{slug}\" 无法转换为草稿",
+  "error.page.changeTemplate.invalid":
+    "页面 \"{slug}\" 的模板无法更改",
+  "error.page.changeTemplate.permission":
+    "您无权更改 \"{slug}\" 的模板",
+  "error.page.changeTitle.empty": "标题不能为空",
+  "error.page.changeTitle.permission":
+    "您无权更改 \"{slug}\" 的标题",
+  "error.page.create.permission": "您无权创建 \"{slug}\"",
+  "error.page.delete": "页面 \"{slug}\" 无法删除",
+  "error.page.delete.confirm": "请输入要确认的页面标题",
+  "error.page.delete.hasChildren":
+    "此页面包含子页面，无法删除",
+  "error.page.delete.permission": "您无权删除 \"{slug}\"",
+  "error.page.draft.duplicate":
+    "附加 URL 网址的页面草稿 \"{slug}\" 已存在",
+  "error.page.duplicate":
+    "附加 URL 网址的页面 \"{slug}\" 已存在",
+  "error.page.duplicate.permission": "您无权复制 \"{slug}\"",
+  "error.page.notFound": "无法找到页面 \"{slug}\"",
+  "error.page.num.invalid":
+    "请输入有效的排序数字。数字不得为负数。",
+  "error.page.slug.invalid": "请输入有效的 URL 网址前缀",
+  "error.page.sort.permission": "页面 \"{slug}\" 无法排序",
+  "error.page.status.invalid": "请设置有效的页面状态",
+  "error.page.undefined": "无法找到页面",
+  "error.page.update.permission": "您无权更新 \"{slug}\"",
+
+  "error.section.files.max.plural":
+    "您不得将超过 {max} 个文件添加到 \"{section}\" 部分",
+  "error.section.files.max.singular":
+    "您不得将超过 1 个文件添加到 \"{section}\" 部分",
+  "error.section.files.min.plural":
+    "\"{section}\" 部分至少需要 {min} 个文件",
+  "error.section.files.min.singular":
+    "\"{section}\" 部分至少需要 1 个文件",
+
+  "error.section.pages.max.plural":
+    "您不得将超过 {max} 个页面添加到 \"{section}\" 部分",
+  "error.section.pages.max.singular":
+    "您不得将超过 1 个页面添加到 \"{section}\" 部分",
+  "error.section.pages.min.plural":
+    "\"{section}\" 部分至少需要 {min} 个页面",
+  "error.section.pages.min.singular":
+    "\"{section}\" 部分至少需要 1 个页面",
+
+  "error.section.notLoaded": "\"{name}\" 部分无法加载",
+  "error.section.type.invalid": "\"{type}\" 部分类型无效",
+
+  "error.site.changeTitle.permission":
+    "您无权改变网站的名称",
+  "error.site.update.permission": "您无权更新网站",
+
+  "error.template.default.notFound": "默认模板不存在",
+
+  "error.user.changeEmail.permission":
+    "您不能更改用户的电子邮件\"{name}\"",
+  "error.user.changeLanguage.permission":
+    "您不能更改用户的语言\"{name}\"",
+  "error.user.changeName.permission":
+    "您不能更改用户的名称\"{name}\"",
+  "error.user.changePassword.permission":
+    "您不能更改用户的密码\"{name}\"",
+  "error.user.changeRole.lastAdmin":
+    "最后一个管理员的角色无法更改",
+  "error.user.changeRole.permission":
+    "您不能更改用户的角色\"{name}\"",
+  "error.user.create.permission": "您不能创建此用户",
+  "error.user.delete": "用户\"{name}\"无法删除",
+  "error.user.delete.lastAdmin": "最后一个管理员无法删除",
+  "error.user.delete.lastUser": "最后一个用户无法删除",
+  "error.user.delete.permission":
+    "您不能删除用户\"{name}\"",
+  "error.user.duplicate":
+    "电子邮件地址为\"{email}\"的用户已存在",
+  "error.user.email.invalid": "请输入有效的电子邮件地址",
+  "error.user.language.invalid": "请输入有效的语言",
+  "error.user.notFound": "无法找到用户\"{name}\"",
+  "error.user.password.invalid":
+    "请输入有效密码。密码长度必须至少为8个字符。",
+  "error.user.password.notSame": "密码不匹配",
+  "error.user.password.undefined": "用户没有密码",
+  "error.user.role.invalid": "请输入有效的角色",
+  "error.user.undefined": "无法找到用户",
+  "error.user.update.permission":
+    "您不能更新用户\"{name}\"",
+
+  "error.validation.accepted": "请确认",
+  "error.validation.alpha": "只能输入 a-z 之间的字符",
+  "error.validation.alphanum":
+    "只能输入 a-z 或数字 0-9 之间的字符",
+  "error.validation.between":
+    "请在 \"{min}\" 和 \"{max}\" 之间输入一个值",
+  "error.validation.boolean": "请确认或拒绝",
+  "error.validation.contains":
+    "请输入一个包含 \"{needle}\" 的值",
+  "error.validation.date": "请输入有效日期",
+  "error.validation.date.after": "请输入在 {date} 之后的日期",
+  "error.validation.date.before": "请输入在 {date} 之前的日期",
+  "error.validation.date.between": "请输入在 {min} 和 {max} 之间的日期",
+  "error.validation.denied": "请拒绝",
+  "error.validation.different": "值不能是 \"{other}\"",
+  "error.validation.email": "请输入有效的电子邮件地址",
+  "error.validation.endswith": "该值必须以 \"{end}\" 结尾",
+  "error.validation.filename": "请输入有效的文件名",
+  "error.validation.in": "请输入以下内容之一：({in})",
+  "error.validation.integer": "请输入有效的整数",
+  "error.validation.ip": "请输入有效的 IP 地址",
+  "error.validation.less": "请输入低于 {max} 的值",
+  "error.validation.match": "该值与预期的模式不匹配",
+  "error.validation.max": "请输入等于或低于 {max} 的值",
+  "error.validation.maxlength":
+    "请输入一个较短的值。(最多 {max} 个字符)",
+  "error.validation.maxwords": "请输入不超过 {max} 个字",
+  "error.validation.min": "请输入等于或大于 {min} 的值",
+  "error.validation.minlength":
+    "请输入更长的值。(最少 {min} 个字符)",
+  "error.validation.minwords": "请输入至少 {min} 个字",
+  "error.validation.more": "请输入比 {min} 大的值",
+  "error.validation.notcontains":
+    "请输入一个不包含 \"{needle}\" 的值",
+  "error.validation.notin":
+    "请不要输入以下任何内容：({notIn})",
+  "error.validation.option": "请选择一个有效的选项",
+  "error.validation.num": "请输入一个有效的数字",
+  "error.validation.required": "请输入内容",
+  "error.validation.same": "请输入 \"{other}\"",
+  "error.validation.size": "值的大小必须为 \"{size}\"",
+  "error.validation.startswith": "该值必须以 \"{start}\" 开头",
+  "error.validation.time": "请输入有效时间",
+  "error.validation.url": "请输入有效 URL 网址",
+
+  "field.files.empty": "尚未选择文件",
+  "field.pages.empty": "尚未选择页面",
+  "field.structure.delete.confirm": "您真的想要删除这一行吗？",
+  "field.structure.empty": "还没有条目",
+  "field.users.empty": "尚未选择用户",
+
+  "file.delete.confirm":
+    "您真的想要删除<br><strong>{filename}</strong>？",
+
+  "files": "文件",
+  "files.empty": "还没有文件",
+
+  "hour": "小时",
+  "insert": "插入",
+  "install": "安装",
+
+  "installation": "安装",
+  "installation.completed": "面板已安装",
+  "installation.disabled": "默认情况下，公共服务器上禁用了面板安装程序。请在本地计算机上运行安装程序，或使用<code>panel.install</code>选项启用它。",
+  "installation.issues.accounts":
+    "<code>/site/accounts</code>文件夹不存在或不可写",
+  "installation.issues.content":
+    "<code>/content</code>文件夹不存在或不可写",
+  "installation.issues.curl": "<code>CURL</code>扩展名是必需的",
+  "installation.issues.headline": "面板无法安装",
+  "installation.issues.mbstring":
+    "<code>MB String</code>扩展名是必需的",
+  "installation.issues.media":
+    "<code>/media</code>文件夹不存在或不可写",
+  "installation.issues.php": "确保使用 <code>PHP 7+</code>",
+  "installation.issues.server":
+    "Kirby 需要 <code>Apache</code>, <code>Nginx</code> 或 <code>Caddy</code>",
+  "installation.issues.sessions": "<code>/site/sessions</code>文件夹不存在或不可写",
+
+  "language": "语言",
+  "language.code": "代码",
+  "language.convert": "存为默认",
+  "language.convert.confirm":
+    "<p>您真的要将<strong>{name}</strong>转换为默认语言吗？这是无法撤消的。</p><p>如果<strong>{name}</strong>未翻译内容，将不再有效回退，您网站的部分内容可能为空。</p>",
+  "language.create": "添加新语言",
+  "language.delete.confirm":
+    "您真的想要删除语言<strong>{name}</strong>包括所有翻译吗？这是无法撤消的！",
+  "language.deleted": "该语言已被删除",
+  "language.direction": "阅读方向",
+  "language.direction.ltr": "从左到右",
+  "language.direction.rtl": "从右到左",
+  "language.locale": "PHP 区域字符串",
+  "language.name": "名称",
+  "language.updated": "语言已更新",
+
+  "languages": "语言",
+  "languages.default": "默认语言",
+  "languages.empty": "还没有语言",
+  "languages.secondary": "第二语言",
+  "languages.secondary.empty": "还没有第二语言",
+
+  "license": "许可证",
+  "license.buy": "购买许可证",
+  "license.register": "注册",
+  "license.register.help":
+    "您在购买后通过电子邮件收到了许可证代码。请复制并粘贴以注册。",
+  "license.register.label": "请输入您的许可证代码",
+  "license.register.success": "感谢您支持 Kirby",
+  "license.unregistered": "这是 Kirby 的未注册演示",
+
+  "link": "链接",
+  "link.text": "链接文本",
+
+  "loading": "载入中",
+
+  "lock.unsaved": "未保存的更改",
+  "lock.isLocked": "未保存的更改出自 <strong>{email}</strong>",
+  "lock.file.isLocked": "该文件当前正由 {email} 编辑，无法更改。",
+  "lock.page.isLocked": "该页面当前正由 {email} 编辑，无法更改。",
+  "lock.unlock": "解锁",
+  "lock.isUnlocked": "您未保存的更改已被其他用户覆盖。您可以下载更改以手动合并它们。",
+
+  "login": "登录",
+  "login.remember": "保留登录信息",
+
+  "logout": "注销",
+
+  "menu": "菜单",
+  "meridiem": "AM/PM",
+  "mime": "媒体类型",
+  "minutes": "分钟",
+
+  "month": "月份",
+  "months.april": "四月",
+  "months.august": "八月",
+  "months.december": "十二月",
+  "months.february": "二月",
+  "months.january": "一月",
+  "months.july": "七月",
+  "months.june": "六月",
+  "months.march": "三月",
+  "months.may": "五月",
+  "months.november": "十一月",
+  "months.october": "十月",
+  "months.september": "九月",
+
+  "more": "更多",
+  "name": "名称",
+  "next": "下一",
+  "off": "关",
+  "on": "开",
+  "open": "打开",
+  "options": "选项",
+
+  "orientation": "方向",
+  "orientation.landscape": "横屏",
+  "orientation.portrait": "竖屏",
+  "orientation.square": "正方形",
+
+  "page.changeSlug": "更改 URL 网址",
+  "page.changeSlug.fromTitle": "从标题创建",
+  "page.changeStatus": "更改状态",
+  "page.changeStatus.position": "请选择一个位置",
+  "page.changeStatus.select": "选择新状态",
+  "page.changeTemplate": "更改模板",
+  "page.delete.confirm":
+    "您真的要删除<strong>{title}</strong>吗？",
+  "page.delete.confirm.subpages":
+    "<strong>此页面包含子页面</strong>。<br>所有子页面也将被删除。",
+  "page.delete.confirm.title": "输入要确认的页面标题",
+  "page.draft.create": "创建草稿",
+  "page.duplicate.appendix": "复制",
+  "page.duplicate.files": "复制文件",
+  "page.duplicate.pages": "复制页面",
+  "page.status": "状态",
+  "page.status.draft": "草稿",
+  "page.status.draft.description":
+    "该页面处于草稿模式，仅对登录的编辑可见",
+  "page.status.listed": "公开",
+  "page.status.listed.description": "该页面对所有人公开",
+  "page.status.unlisted": "不公开",
+  "page.status.unlisted.description": "该页面只能通过 URL 访问",
+
+  "pages": "Pages",
+  "pages.empty": "还没有页面",
+  "pages.status.draft": "草稿",
+  "pages.status.listed": "已发布",
+  "pages.status.unlisted": "不公开",
+
+  "password": "密码",
+  "pixel": "像素",
+  "prev": "上一",
+  "remove": "移除",
+  "rename": "重命名",
+  "replace": "替换",
+  "retry": "重试",
+  "revert": "还原",
+
+  "role": "角色",
+  "role.admin.description": "管理员拥有所有权利",
+  "role.admin.title": "管理员",
+  "role.all": "全部",
+  "role.empty": "没有具有此角色的用户",
+  "role.description.placeholder": "没有描述",
+  "role.nobody.description": "这是一个没有任何权限的后备角色",
+  "role.nobody.title": "查无此人",
+
+  "save": "保存",
+  "search": "搜索",
+  "select": "选择",
+  "settings": "设置",
+  "size": "尺寸",
+  "slug": "附加的 URL 网址",
+  "sort": "排序",
+  "title": "标题",
+  "template": "模板",
+  "today": "Today",
+
+  "toolbar.button.code": "代码",
+  "toolbar.button.bold": "粗体",
+  "toolbar.button.email": "电子邮箱",
+  "toolbar.button.headings": "标题",
+  "toolbar.button.heading.1": "标题 1",
+  "toolbar.button.heading.2": "标题 2",
+  "toolbar.button.heading.3": "标题 3",
+  "toolbar.button.italic": "斜体",
+  "toolbar.button.file": "文件",
+  "toolbar.button.file.select": "选择一个文件",
+  "toolbar.button.file.upload": "上传一个文件",
+  "toolbar.button.link": "链",
+  "toolbar.button.ol": "有序列表",
+  "toolbar.button.ul": "无序列表",
+
+  "translation.author": "Kirby 团队",
+  "translation.direction": "ltr",
+  "translation.name": "简体中文",
+
+  "upload": "上传",
+  "upload.errors": "错误",
+  "upload.progress": "正在上传…",
+
+  "url": "Url",
+  "url.placeholder": "https://example.com",
+
+  "user": "用户",
+  "user.blueprint":
+    "您可以在<strong>/site/blueprints/users/{role}.yml</strong>中为此用户角色定义其他部分和表单字段",
+  "user.changeEmail": "Change email",
+  "user.changeLanguage": "更改语言",
+  "user.changeName": "重命名此用户",
+  "user.changePassword": "更改密码",
+  "user.changePassword.new": "新密码",
+  "user.changePassword.new.confirm": "确认新密码…",
+  "user.changeRole": "更改角色",
+  "user.changeRole.select": "选择一个新角色",
+  "user.create": "添加新用户",
+  "user.delete": "删除此用户",
+  "user.delete.confirm":
+    "您真的要删除<br><strong>{email}</strong>？",
+
+  "users": "用户",
+
+  "version": "版本",
+
+  "view.account": "您的账户",
+  "view.installation": "安装",
+  "view.settings": "设置",
+  "view.site": "网站",
+  "view.users": "用户",
+
+  "welcome": "欢迎",
+  "year": "年"
+}

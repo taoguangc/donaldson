@@ -1,0 +1,29 @@
+Title: Home
+
+----
+
+Heading: The PowerCore
+
+----
+
+Subheading:
+
+全新PSD系列产品，专为中国市场而生
+
+----
+
+Lang: Language
+
+----
+
+Lang-zh: Chinese
+
+----
+
+Lang-en: English
+
+----
+
+Product:
+
+- home_en.png

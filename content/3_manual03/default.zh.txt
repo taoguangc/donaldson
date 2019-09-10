@@ -1,0 +1,52 @@
+Title:
+
+维护保养
+
+----
+
+Builder:
+
+- 
+  video:
+    - powercore03.mp4
+  poster:
+    - 300.jpg
+  _key: videos
+  _uid: videos_1566981995386_2321
+- 
+  gallery:
+    - 301.jpg
+    - 301m.gif
+    - 302.jpg
+    - 302m.gif
+    - 303.jpg
+    - 303m.gif
+    - 304.jpg
+    - 304m.gif
+    - 305.jpg
+    - 305m.gif
+    - 306.jpg
+    - 306m.gif
+    - 307.jpg
+    - 307m.gif
+    - 308.jpg
+    - 309.jpg
+    - 310.jpg
+    - 310m.gif
+    - 311.jpg
+    - 311m.gif
+    - 312.jpg
+  _key: gallerys
+  _uid: gallerys_1566983718380_4856
+
+----
+
+Video: 
+
+----
+
+Poster: 
+
+----
+
+Gallery: 

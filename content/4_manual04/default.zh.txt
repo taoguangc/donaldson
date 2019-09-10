@@ -1,0 +1,20 @@
+Title: 注意事项
+
+----
+
+Builder:
+
+- 
+  video:
+    - powercore04.mp4
+  poster:
+    - 400.jpg
+  _key: videos
+  _uid: videos_1566972633551_274
+- 
+  gallery:
+    - 401.jpg
+    - 402.gif
+    - 403.jpg
+  _key: gallerys
+  _uid: gallerys_1566983497362_4391

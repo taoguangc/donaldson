@@ -1,0 +1,64 @@
+Title: 产品特点
+
+----
+
+Imgmap:
+
+- 201.jpg
+
+----
+
+Hotarea:
+
+- 
+  hotleft: '22%'
+  hottop: '15%'
+  hottext: 节省燃油
+  hotlink: '#hot01'
+- 
+  hotleft: '67.5%'
+  hottop: '20%'
+  hottext: 降低维护成本
+  hotlink: '#hot02'
+- 
+  hotleft: '52%'
+  hottop: '80%'
+  hottext: “真的”防止发动机早磨
+  hotlink: '#hot03'
+- 
+  hotleft: '5%'
+  hottop: '55%'
+  hottext: 配置升级
+  hotlink: '#hot04'
+
+----
+
+Builder:
+
+- 
+  video:
+    - powercore02.mp4
+  poster:
+    - 200.jpg
+  _key: videos
+  _uid: videos_1567228937586_359
+- 
+  gallery:
+    - 202.jpg
+    - 203.gif
+    - 204.jpg
+    - 205.jpg
+    - 206.gif
+    - 207.jpg
+    - 208.jpg
+    - 209.jpg
+    - 210.jpg
+  _key: gallerys
+  _uid: gallerys_1567228942362_459
+
+----
+
+Key:
+
+gallerys
+  _uid: gallerys_1567226203239_746
